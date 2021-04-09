@@ -1,0 +1,26 @@
+
+.container {
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    height: 56px;
+    color: #fff;
+    width: 200px;
+    &.active {
+        background-color: #0004;
+    }
+}
+
+.icon {
+    padding:8px 12px;
+    img {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        display: block;
+    }
+}
+
+.name {
+    display: flex;
+    align-items: center;
+}

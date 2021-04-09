@@ -4,7 +4,29 @@
 //
 // import { User } from 'path/to/interfaces';
 
+export type Entity = User | Group;
+
 export type User = {
-  id: number
-  name: string
+  type: 'user',
+  id: string,
+  name: string,
+  icon: string,
+  readme: string
+}
+
+export type Group = {
+  type: 'group',
+  id: string,
+  name: string,
+  icon: string,
+  readme: string
+  subgroups: SubGroup[],
+  users: User[],
+}
+
+export type SubGroup = {
+  id: string,
+  name: string,
+  icon: string,
+  readme: string
 }

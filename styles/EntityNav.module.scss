@@ -1,0 +1,27 @@
+.container {
+    height: 100%;
+    &:hover {
+        .search {
+            opacity: 1;
+            height: 32px;
+        }
+    }
+}
+
+.search {
+    transition: all.2s;
+    opacity: 0;
+    height: 0;
+    padding: 8px;
+    input {
+        background: #252525;
+        border: 0;
+        border-radius: 16px;
+        height: 32px;
+        padding: 0 8px;
+        outline: none;
+        width: 100%;
+        box-sizing: border-box;
+        color: #fff;
+    }
+}

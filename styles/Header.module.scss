@@ -1,0 +1,14 @@
+.container {
+    padding: 0 16px 0;
+    height: 40px;
+    box-shadow: 0 1px 0 #ddd;
+    position: sticky;
+    background: #fff;
+    top: 0;
+    .name {
+        margin: 0;
+        height: 40px;
+        line-height: 40px;
+        font-size: 1rem;
+    }
+}

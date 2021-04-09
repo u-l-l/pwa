@@ -1,0 +1,17 @@
+.container {
+    display: grid;
+    grid-template-rows: 40px 1fr;
+    height: 100%;
+    .main {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        height: 100%;
+        .menu {
+            background: #eee;
+            overflow-y: scroll;
+        }
+        .content {
+            overflow-y: scroll;
+        }
+    }
+}
