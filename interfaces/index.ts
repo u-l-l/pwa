@@ -30,3 +30,9 @@ export type SubGroup = {
   icon: string,
   readme: string
 }
+
+export type LoginActionPayload = {
+  server: string,
+  screenName: string,
+  password: string
+}
